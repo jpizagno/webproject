@@ -15,11 +15,12 @@ RUN rm -rf /usr/src/app/my-app/src/*
 # Install app dependencies
 COPY package.json /usr/src/app/my-app/
 COPY ./src/index.js /usr/src/app/my-app/src/
-MKDIR /usr/src/app/my-app/src/css
+CMD ["mkdir","/usr/src/app/my-app/src/css"]
 COPY ./src/css/index.css /usr/src/app/my-app/src/css/
 COPY ./src/css/bootstrap.min.css /usr/src/app/my-app/src/css/
+COPY ./public/*.jpg /usr/src/app/my-app/public/
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
 
