@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import ReactDOM from 'react-dom';
 import Modal from 'react-responsive-modal';
 import './css/index.css';
