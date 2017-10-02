@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import './css/bootstrap.min.css';
+import './css/custom.css';
 
 var imagesOnDiskAll = ["all1.jpg"
 ,"all2.jpg"
@@ -70,24 +71,29 @@ class PhotoAlbum extends React.Component {
     };
     this.changeStateAlbum = this.changeStateAlbum.bind(this);
 
-    //var imagesInternalTestAll = ["all3.jpg"
-    //,"tristan9.jpg"];
-
     this.imagesHtmlAll = [];
     for (var i=0 ; i < imagesOnDiskAll.length ; i++) {
       this.imagesHtmlAll.push(
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-        <img src={  imagesOnDiskAll[i]  } width="200" height="200" />
-      </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="thumbnail_container">
+              <div class="thumbnail">
+                <img src={ imagesOnDiskAll[i] } />
+              </div>
+            </div>  
+        </div>  
       );
     }
 
     this.imagesHtmlTristan = [];
     for (var i=0 ; i < imagesOnDiskTristan.length ; i++) {
       this.imagesHtmlTristan.push(
-        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-        <img src={ imagesOnDiskTristan[i]} width="200" height="200" />
-      </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail_container">
+                  <div class="thumbnail">
+                    <img src={ imagesOnDiskTristan[i] } />
+                  </div>
+                </div>  
+            </div>  
       );
     }
 
@@ -134,7 +140,9 @@ class PhotoAlbum extends React.Component {
         </div>
         <br/>
 
-        {imagesRender}
+         <div class="row">
+            {imagesRender}
+         </div>
 
       </div>
     );
