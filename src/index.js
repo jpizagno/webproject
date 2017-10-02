@@ -87,7 +87,7 @@ class MyImage extends React.Component {
     }
 }
 
-class App extends Component {
+class PhotoAlbum extends Component {
  constructor(props) {
     super(props);
 
@@ -157,8 +157,7 @@ class App extends Component {
 
     const { open } = this.state;
     return (
-      <div>
-        <button onClick={this.onOpenModal}>Open modal</button>
+      <div class="container">
         <Modal open={open} onClose={this.onCloseModal} little>
           <img src={this.state.imageInModal} />
         </Modal>
@@ -182,4 +181,8 @@ class App extends Component {
   }
 }
 
-export default App;
+ReactDOM.render(
+  <PhotoAlbum />,
+  document.getElementById('root')
+);
+

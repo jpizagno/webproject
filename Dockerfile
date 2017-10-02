@@ -19,6 +19,7 @@ COPY ./src/index.js /usr/src/app/my-app/src/
 CMD ["mkdir","/usr/src/app/my-app/src/css"]
 COPY ./src/css/index.css /usr/src/app/my-app/src/css/
 COPY ./src/css/bootstrap.min.css /usr/src/app/my-app/src/css/
+COPY ./src/css/custom.css /usr/src/app/my-app/src/css/
 COPY ./public/*.jpg /usr/src/app/my-app/public/
 
 EXPOSE 3000
