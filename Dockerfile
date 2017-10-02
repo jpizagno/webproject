@@ -3,7 +3,8 @@ FROM node:argon
 # Create app directory
 RUN mkdir -p /usr/src/app
 
-# npm install 
+# npm install
+RUN npm install react-responsive-modal --save 
 RUN npm install -g create-react-app
 WORKDIR /usr/src/app/
 RUN create-react-app my-app
