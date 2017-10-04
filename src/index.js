@@ -27,7 +27,6 @@ var imagesOnDiskAll = ["all1.jpg"
 ,"tristan6.jpg"
 ,"tristan7.jpg"
 ,"tristan8.jpg"
-,"tristan9.jpg"
 ,"tristan.jpg"];
 
 var imagesOnDiskTristan = ["tristan11.jpg"
@@ -44,7 +43,6 @@ var imagesOnDiskTristan = ["tristan11.jpg"
 ,"tristan6.jpg"
 ,"tristan7.jpg"
 ,"tristan8.jpg"
-,"tristan9.jpg"
 ,"tristan.jpg"];
 
 
