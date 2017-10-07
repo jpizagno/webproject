@@ -24,5 +24,4 @@ COPY ./public/*.jpg /usr/src/app/my-app/public/
 
 EXPOSE 3000
 
-# CMD [ "npm", "start" ]
 
