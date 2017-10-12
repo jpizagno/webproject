@@ -16,6 +16,7 @@ RUN rm -rf /usr/src/app/my-app/src/*
 # Install app dependencies
 COPY package.json /usr/src/app/my-app/
 COPY ./src/index.js /usr/src/app/my-app/src/
+COPY ./src/PhotoAlbum.js /usr/src/app/my-app/src/
 CMD ["mkdir","/usr/src/app/my-app/src/css"]
 COPY ./src/css/index.css /usr/src/app/my-app/src/css/
 COPY ./src/css/bootstrap.min.css /usr/src/app/my-app/src/css/
