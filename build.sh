@@ -27,8 +27,8 @@ export AWS_DEFAULT_REGION=eu-central-1
 sudo yum install git -y
 sudo yum install docker -y
 
-# install app
-git clone https://github.com/jpizagno/webproject.git
+# install app (should already be installed)
+# git clone https://github.com/jpizagno/webproject.git
 
 # get images from S3
 cd ./webproject/public
