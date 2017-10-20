@@ -1,6 +1,6 @@
 # Family Album
 
-ReactJS app, the runs a family album in Docker.  There must be an S3 bucket with album.zip in it.  
+A ReactJS app that runs a family album in Docker.  There must be a S3 bucket with album.zip in it.  
 
 ## to run locally:
 ```bash
@@ -33,7 +33,7 @@ sudo ./build.sh {AWS_ACCESS_KEY_ID} {AWS_SECRET_ACCESS_KEY}
 sudo ./run.sh 
 ```
 
-### to test
+### test app
 ```bash
-sh ./run.sh 
+sh ./test.sh 
 ```
