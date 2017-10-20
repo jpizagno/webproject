@@ -1,0 +1,49 @@
+   62  npm -v
+   95  npm install -g create-react-app
+  101  curl https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-2.1.0.tgz
+  132  npm start
+  136  npm start
+  137  npm start
+  138  npm install react-responsive-modal --save
+  155  npm start
+  158  npm start
+  162  npm start
+  165  npm install react-responsive-modal --save
+  167  npm start
+  170  npm start
+  171  npm start
+  326  npm start
+  408  npm
+  419  npm install
+  420  npm start
+  431  npm test
+  452  npm test
+  467  npm install
+  470  npm test
+  473  npm install react-responsive-modal
+  474  npm test
+  479  npm test
+  486  npm install --save-dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-rendere
+  487  npm install --save-dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-renderer
+  497  npm test
+  498  npm install --save-dev enzyme
+  499  npm test
+  504  npm test
+  506  npm test
+  511  npm test
+  513  npm test
+  515  npm test
+  517  npm i --save-dev enzyme
+  518  npm test
+  519  npm i --save-dev react-test-renderer@16
+  520  npm i --save-dev enzyme enzyme-adapter-react-16
+  521  npm test
+  526  npm test
+  528  npm test
+  532  npm test
+  536  npm test
+  538  npm test
+  541  npm test
+  543  npm test
+  546  history | grep npm
+  547  history | grep npm > npm_history

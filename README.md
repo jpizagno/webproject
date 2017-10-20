@@ -1,6 +1,7 @@
 # webproject
 
 ## to run locally:
+```bash
 npm install react-responsive-modal --save
 npm install -g create-react-app
 create-react-app photoalbum
@@ -10,10 +11,22 @@ rm -rf ./photoalbum/src/*
 cp -R src/ ./photoalbum/src/
 mkdir ./photoalbum/src/css
 cp -R src/css/* ./photoalbum/rsc/css/
+```
 
 ## to run on AWS:
-### build and run app
+
+### build app
+```bash
 webproject/
 sudo ./build.sh
-sudo ./run.sh 
+```
 
+### run app
+```bash
+sudo ./run.sh 
+```
+
+## to test
+```bash
+sh ./run.sh 
+```
