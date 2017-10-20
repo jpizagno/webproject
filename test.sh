@@ -1,4 +1,7 @@
 
+set -e
+set -x
+
 # npm install
 sudo yum install nodejs npm --enablerepo=epel -y
 # sudo yum install npm  -y
@@ -14,6 +17,8 @@ sudo npm i --save-dev react-test-renderer@16
 # sudo npm i --save-dev enzyme enzyme-adapter-react-16
 
 # create test project
+sudo mkdir my-app-test
+sudo chmod a+xrw my-app-test
 create-react-app my-app-test
 
 # copy software into my-app-test
