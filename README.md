@@ -24,6 +24,8 @@ Create a EC2 instance.  To run the App, the EC2 instance must have port 80/HTML 
 The AWS keys are needed to access the album.zip file on S3.
 
 ```bash
+sudo yum install git -y
+git clone https://github.com/jpizagno/webproject.git
 cd webproject/
 sudo ./build.sh {AWS_ACCESS_KEY_ID} {AWS_SECRET_ACCESS_KEY}
 ```

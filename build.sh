@@ -31,7 +31,7 @@ sudo yum install docker -y
 # git clone https://github.com/jpizagno/webproject.git
 
 # get images from S3
-cd ./webproject/public
+cd public/
 aws s3 cp s3://photoalbumeu/album.zip .
 unzip -o album.zip
 cd /home/ec2-user/webproject/
