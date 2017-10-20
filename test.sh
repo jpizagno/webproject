@@ -1,12 +1,13 @@
 
 # npm install
 sudo yum install nodejs npm --enablerepo=epel -y
-sudo yum install npm  -y
+# sudo yum install npm  -y
 sudo npm install n -g
 sudo n stable
 sudo npm install react-responsive-modal --save 
 sudo npm install -g create-react-app
 
+sudo npm install --save-dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-renderer
 sudo npm install --save-dev jest babel-jest babel-preset-es2015 babel-preset-react react-test-renderer
 # sudo npm install --save-dev enzyme
 sudo npm i --save-dev react-test-renderer@16
