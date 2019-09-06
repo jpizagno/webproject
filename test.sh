@@ -3,7 +3,7 @@
 set -e
 set -x
 
-# NPM install
+# npm install
 sudo yum install nodejs npm --enablerepo=epel -y
 # sudo yum install npm  -y
 sudo npm install n -g
