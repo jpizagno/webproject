@@ -9,7 +9,7 @@ RUN npm install -g create-react-app
 WORKDIR /usr/src/app/
 RUN create-react-app my-app
 
-# clean default installation
+# Clean default installation
 WORKDIR /usr/src/app/my-app/
 RUN rm -rf /usr/src/app/my-app/src/*
 
