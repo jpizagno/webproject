@@ -25,7 +25,7 @@ export AWS_ACCESS_KEY_ID="$1"
 export AWS_SECRET_ACCESS_KEY="$2"
 export AWS_DEFAULT_REGION=eu-central-1
 
-# install git and docker
+# Install git and docker
 sudo yum install git -y
 sudo yum install docker -y
 
